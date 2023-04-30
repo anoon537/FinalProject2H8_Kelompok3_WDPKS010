@@ -52,17 +52,7 @@ header {
   transition: transform 0.2s ease-in-out;
 }
 
-nav form .btn-outline-primary {
-  border-color: #234cad;
-  color: #234cad;
-  border-radius: 25px;
-  height: 50px;
-  width: 135px;
-  left: 0px;
-  top: 0px;
-  font-weight: 700;
-}
-nav form .btn-primary {
+.btn-primary {
   border-color: transparent;
   background-color: #f2f6ff;
   color: #234cad;
@@ -81,6 +71,65 @@ nav form .btn-primary {
   .navbar-toggler {
     display: block;
   }
+}
+
+/* Banner */
+#banner .container {
+  border-radius: 60px;
+  background-color: #f2f6ff;
+}
+#banner .card {
+  margin-top: 108px;
+}
+#banner .card .card-title {
+  color: #234cad;
+  height: 168px;
+  width: 400px;
+  left: 100px;
+  top: 108px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  text-align: left;
+}
+#banner .card .px-5 {
+  color: #234cad;
+  width: 400px;
+}
+#banner button {
+  border-color: #234cad;
+  height: 65px;
+  width: 200px;
+  left: 0px;
+  top: 0px;
+  border-radius: 32.5px;
+  font-size: 22px;
+  font-weight: 700;
+}
+#banner .icon {
+  color: #234cad;
+  border-radius: 50%;
+  border: none;
+  height: auto;
+  width: auto;
+  left: 0px;
+  top: 0px;
+}
+#banner .box {
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #234cad;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  white-space: nowrap;
+  margin-left: 10px;
+  transition: transform 0.3s ease;
+}
+#banner .box:hover {
+  transform: scale(1.1);
+}
+#banner .box h3 {
+  font-weight: bold;
 }
 
 /* Footer */
