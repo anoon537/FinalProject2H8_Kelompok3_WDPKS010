@@ -158,12 +158,11 @@ header {
   font-size: 20px;
   font-weight: 400;
 }
-#cloudLock .col-md-6 {
-  cursor: pointer;
-  transition: transform 0.3s ease;
+#cloudLock button {
+  cursor: default;
 }
-#cloudLock .col-md-6:hover {
-  transform: scale(1.1);
+#cloudLock .col-md-6 {
+  cursor: default;
 }
 
 /* Footer */
@@ -189,47 +188,47 @@ footer ul li {
 }
 
 /* Styling Price */
-.pricing{
+.pricing {
   text-align: center;
   margin-top: 200px;
-  color: #234CAD;
+  color: #234cad;
 }
 
-.pricing h1{
+.pricing h1 {
   font-weight: 700;
   font-size: 48px;
   line-height: 56px;
 }
 
-.pricing h6{
+.pricing h6 {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
 }
 
-.cards{
+.cards {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
 
-.card{
+.card {
   background-color: #fff;
-  border-radius: 0.rem;
+  border-radius: 0rem;
   background-color: #f2f6ff;
 }
 
-.cards .card-active{
+.cards .card-active {
   display: flex;
-  border: 3px solid #234CAD;
+  border: 3px solid #234cad;
   align-items: center;
   transform: scale(1.1);
   z-index: 1;
   border-radius: 20px;
 }
 
-.ul-text{
+.ul-text {
   margin: 2.6rem;
   display: flex;
   justify-content: center;
@@ -237,41 +236,39 @@ footer ul li {
   align-items: center;
 }
 
-.ul-text li{
+.ul-text li {
   list-style-type: none;
   display: flex;
   justify-content: center;
   width: 100%;
-  padding: 6px ;
+  padding: 6px;
 }
 
-.card-shadow{
+.card-shadow {
   background-color: #f2f6ff;
   border-radius: 20px;
-
 }
 
-.pack{
+.pack {
   border-radius: nullpx;
   color: #234cad;
   font-weight: 700;
 }
 
-#basic{
+#basic {
   color: #234cad;
   font-size: 56px;
 }
 
-.capacity{
+.capacity {
   border-radius: nullpx;
   color: #234cad;
 }
 
-.btn-price{
+.btn-price {
   border-radius: 20px;
   color: #234cad;
   font-weight: 700;
-  border-bottom: #234CAD;
+  border-bottom: #234cad;
   line-height: 200%;
 }
-
