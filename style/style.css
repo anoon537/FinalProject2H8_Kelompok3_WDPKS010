@@ -2,6 +2,7 @@
   font-family: "Nunito", sans-serif;
 }
 
+/* styling header */
 .navbar-toggler {
   height: 50px;
   width: 50px;
@@ -73,15 +74,15 @@ header {
   }
 }
 
-/* Banner */
-#banner .container {
+/* styling Banner */
+#home .container {
   border-radius: 60px;
   background-color: #f2f6ff;
 }
-#banner .card {
+#home .card {
   margin-top: 108px;
 }
-#banner .card .card-title {
+#home .card .card-title {
   color: #234cad;
   height: 168px;
   width: 400px;
@@ -91,11 +92,11 @@ header {
   letter-spacing: 0px;
   text-align: left;
 }
-#banner .card .px-5 {
+#home .card .px-5 {
   color: #234cad;
   width: 400px;
 }
-#banner button {
+#home button {
   border-color: #234cad;
   height: 65px;
   width: 200px;
@@ -105,7 +106,7 @@ header {
   font-size: 22px;
   font-weight: 700;
 }
-#banner .icon {
+#home .icon {
   color: #234cad;
   border-radius: 50%;
   border: none;
@@ -114,7 +115,7 @@ header {
   left: 0px;
   top: 0px;
 }
-#banner .box {
+#home .box {
   cursor: pointer;
   background-color: #ffffff;
   color: #234cad;
@@ -125,10 +126,10 @@ header {
   margin-left: 10px;
   transition: transform 0.3s ease;
 }
-#banner .box:hover {
+#home .box:hover {
   transform: scale(1.1);
 }
-#banner .box h3 {
+#home .box h3 {
   font-weight: bold;
 }
 
@@ -165,7 +166,7 @@ header {
   cursor: default;
 }
 
-/* Footer */
+/* styling Footer */
 
 footer h5 {
   border-radius: nullpx;
@@ -273,6 +274,41 @@ footer ul li {
   color: #234cad;
   font-weight: 700;
   line-height: 30px;
-  border: 3px solid #234CAD;
+  border: 3px solid #234cad;
   width: 200px;
+}
+
+/* Styling button back to top */
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  font-size: 24px;
+  background: #234cad;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+}
+
+.back-to-top i {
+  transition: transform 0.3s ease-in-out;
+}
+
+.back-to-top:hover i {
+  transform: translateY(-2px);
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.fade-in.active {
+  opacity: 1;
+  transform: translateY(0);
 }
