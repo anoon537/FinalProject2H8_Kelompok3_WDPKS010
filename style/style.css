@@ -312,3 +312,50 @@ footer ul li {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* style newslatter */
+
+#newsletter .container {
+  border-radius: 60px;
+  background-color: #f2f6ff;
+}
+#newsletter .card {
+  margin-top: 108px;
+}
+#newsletter .card .card-title {
+  color: #234cad;
+  height: 168px;
+  width: 400px;
+  left: 100px;
+  top: 108px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  text-align: left;
+}
+#newsletter .card .px-5 {
+  color: #234cad;
+  width: 400px;
+}
+
+.text-decoration{
+  text-align: center;
+  color: #234cad;
+  height: 60px;
+  left: 100px;
+  font-weight: 700;
+}
+
+.deskripsi{
+  text-align: center;
+  color: #234cad;
+  height: 100px;
+  left: 100px;
+  font-weight: 400;
+}
+
+.search{
+  text-align: center;
+  margin: 15px 15px 100px;
+  border-style: none;
+  border-color: #fff;
+}
