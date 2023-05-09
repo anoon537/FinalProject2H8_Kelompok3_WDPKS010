@@ -170,15 +170,18 @@ header {
 
 footer h5 {
   border-radius: nullpx;
+  margin-left: 100px;
   color: #234cad;
   font-weight: 700;
 }
 footer p {
   color: #234cad;
+  margin-left: 100px;
   border-radius: nullpx;
 }
 footer ul li {
   color: #234cad;
+  margin-left: 100px;
   border-radius: nullpx;
 }
 .list-unstyled li a {
