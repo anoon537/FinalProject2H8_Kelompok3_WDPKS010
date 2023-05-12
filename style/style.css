@@ -405,3 +405,407 @@ footer ul li {
   transform: translate(-50%, -50%);
   color: #fff;
 }
+
+/* -------------------------------------------------------------------- */
+/* product 1 */
+/* productS CSS */
+.product {
+  margin-bottom: 5rem;
+}
+/* END OF productS CSS */
+/* product 1 CSS */
+.product-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.div-product-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3rem;
+  max-width: 100%;
+  width: 45%;
+  padding: 5rem 1rem 5rem 1rem;
+  background-color: #f2f6ff;
+}
+.all-card .card-aj {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.all-card .card-dl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.all-card .card-mc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Chat CSS */
+/* Chat AJ product */
+.position-chat-1 {
+  padding: 0px 80px 0px 80px;
+}
+.card-aj {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #234cad;
+  background-color: #ffffff;
+  border-radius: 25px;
+  margin-bottom: 1.5rem;
+  padding: 25px 0px 25px 0px;
+}
+.icon-aj {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  font-size: 20px;
+  border-radius: 50%;
+  background-color: #f2f6ff;
+}
+.span-title {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 8px;
+  color: #ffffff;
+  background-color: #234cad;
+  border-radius: 100px;
+  padding: 2px 5px 2px 5px;
+}
+.div-side-card-aj {
+  font-size: 15px;
+  margin-left: 18px;
+}
+.p-side-chat-1 {
+  font-size: 13px;
+}
+.chat-1 {
+  margin-top: -20px;
+}
+.p-chat-1 {
+  font-size: 10px;
+}
+/* Chat DL product */
+.position-chat-2 {
+  padding: 0px 110px 0px 110px;
+  opacity: 75%;
+}
+.card-dl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #234cad;
+  background-color: #ffffff;
+  border-radius: 25px;
+  margin-bottom: 1.5rem;
+  padding: 20px 0px 20px 0px;
+}
+.icon-dl {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  font-size: 18px;
+  border-radius: 50%;
+  background-color: #f2f6ff;
+}
+.span-title {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 8px;
+  color: #ffffff;
+  background-color: #234cad;
+  border-radius: 100px;
+  padding: 2px 5px 2px 5px;
+}
+.div-side-card-dl {
+  font-size: 15px;
+  margin-left: 10px;
+}
+.chat-2 {
+  margin-top: -20px;
+}
+.p-chat-2 {
+  font-size: 8px;
+}
+/* Chat MC product */
+.position-chat-3 {
+  opacity: 50%;
+  padding: 0px 140px 0px 140px;
+}
+.card-mc {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #234cad;
+  background-color: #ffffff;
+  border-radius: 20px;
+  max-width: 300px;
+  padding: 10px 20px 10px 20px;
+}
+.icon-mc {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  font-size: 12px;
+  border-radius: 50%;
+  background-color: #f2f6ff;
+}
+.span-title {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 8px;
+  color: #ffffff;
+  background-color: #234cad;
+  border-radius: 100px;
+  padding: 2px 5px 2px 5px;
+}
+.div-side-card-mc {
+  font-size: 11px;
+  margin-left: 10px;
+}
+.p-side-chat-3 {
+  font-size: 8px;
+}
+.chat-3 {
+  margin-top: -20px;
+}
+.p-chat-3 {
+  font-size: 6px;
+}
+/* END OF Chat CSS */
+
+/* side product 1 */
+.side-product-1 {
+  color: #234cad;
+  font-size: 29px;
+  margin-left: 5.5rem;
+}
+.h1-side-product-1 {
+  line-height: 3rem;
+  margin-bottom: 1.5rem;
+}
+.p-side-product-1 {
+  font-size: 14px;
+  margin-bottom: 3rem;
+}
+.button-product-1 {
+  padding: 1rem 2.5rem;
+  background-color: transparent;
+  border: 2px solid #234cad;
+  font-size: 18px;
+  font-weight: 600;
+  color: #234cad;
+  line-height: 1;
+  border-radius: 25px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.button-product-1:hover {
+  color: #f2f6ff;
+  background-color: #234cad;
+}
+/* END OF SIDE product 1 CSS */
+/* END OF product 1 CSS */
+/* -------------------------------------------------------------------- */
+
+/* INFO product CSS */
+.info-products {
+  text-align: center;
+  margin-bottom: 5rem;
+  color: #234cad;
+}
+.info-products .h1-info-products {
+  font-size: 41px;
+  margin-bottom: 15px;
+}
+/* END OF INFO product CSS */
+/* -------------------------------------------------------------------- */
+
+/* ABOUT */
+#about .card {
+  margin-top: 50px;
+}
+#about.card .card-title {
+  color: #234cad;
+  height: 168px;
+  width: 400px;
+  left: 100px;
+  top: 108px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  text-align: left;
+}
+#about .card .px-5 {
+  color: #234cad;
+  width: 400px;
+}
+#about button {
+  border-color: #234cad;
+  height: 65px;
+  width: 200px;
+  left: 0px;
+  top: 0px;
+  border-radius: 32.5px;
+  font-size: 22px;
+  font-weight: 700;
+}
+#about.icon {
+  color: #234cad;
+  border-radius: 50%;
+  border: none;
+  height: auto;
+  width: auto;
+  left: 0px;
+  top: 0px;
+}
+#about .box {
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #234cad;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  white-space: nowrap;
+  margin-left: 10px;
+  transition: transform 0.3s ease;
+}
+#about .box:hover {
+  transform: scale(1.1);
+}
+#about.box h3 {
+  font-weight: bold;
+}
+/* SIDE ABOUT */
+.about-left{
+  position: relative;
+  width: 575px;
+  height: 575px;
+  background: #F2F6FF;
+  border-radius: 60px;
+}
+.card-1{
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  width: 276px;
+  height: 160px;
+  margin-bottom: 25px;
+  background: #FFFFFF;
+  border-radius: 25px;
+}
+.card-2{
+  position: absolute;
+  width: 276px;
+  height: 160px;
+  left: 100px;
+  top: 285px;
+  margin-bottom: 25px;
+  background: #FFFFFF;
+  border-radius: 25px;
+}
+.card-3{
+  position: absolute;
+  width: 276px;
+  height: 160px;
+  left: 100px;
+  top: 470px;
+  bottom: -9.57%;
+  margin-bottom: 25px;
+  background: #FFFFFF;
+  border-radius: 25px;
+}
+.card-4{
+  position: absolute;
+  left: 401px;
+  top: 100px;
+  width: 276px;
+  height: 160px;
+  margin-bottom: 25px;
+  background: #FFFFFF;
+  border-radius: 25px;
+}
+.card-5{
+  position: absolute;
+  left: 401px;
+  top: 285px;
+  width: 276px;
+  height: 160px;
+  margin-bottom: 25px;
+  background: #FFFFFF;
+  border-radius: 25px;
+}
+.card-6{
+  position: absolute;
+  left: 401px;
+  top: 470px;
+  right: -9.81%;
+  bottom: -9.57%;
+  width: 276px;
+  height: 160px;
+  margin-bottom: 25px;
+  background: #FFFFFF;
+  border-radius: 25px;
+}
+.upper{
+  display: flex;
+}
+.upper .chat-text{
+  line-height: 10px;
+  margin: 30px;
+}
+.chat-text p{
+  font-size: 12px;
+  color: #234CAD;
+}
+.calendar{
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  border: 2.25px solid #234CAD;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.calendar img{
+  margin: 17px;
+}
+.bottom{
+    display: flex;
+    margin-left: 28px;
+    margin-top: -5px;
+}
+.bottom > div{
+    width: 40px;
+    height: 40px;
+    background-color: #F2F6FF;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    margin-left: -8px;
+    font-weight: 700;
+    font-size: 10px;
+    color: #234CAD;
+}
+/* END OF ABOUT */
+/* -------------------------------------------------------------------- */
